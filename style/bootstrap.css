@@ -1,5 +1,26 @@
 
+.hero {
+  background-image: url("../images/neon.jpg");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.hero2 {
+  background-image: url("../images/sharp.jpg");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hero3 {
+  background-image: url("../images/back.jpg");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 body
 {
