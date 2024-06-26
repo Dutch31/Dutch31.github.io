@@ -68,7 +68,7 @@
     <div class="hero-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h2 class="hero-title mb-4">Project Dungeon Divers</h2>
+          <h2 class="hero-title mb-4">Dungeon Divers</h2>
           <ol class="breadcrumb d-flex justify-content-center">
             <li class="breadcrumb-item">
               <a href="index.html">Home</a>
@@ -153,12 +153,11 @@
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>Dungeon Divers Page</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
-                Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia
-                accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt
-                eius.
+                This project was made in 20 hours since thats all the class time we were given. Me and my partner for
+                this project wanted to make a multiplayer game. Since we knew we didnt have a lot of time it was decided
+                to make it a 2d dungeon crawler where you and your friends could fight enemies and go through dungeons.
               </p>
             </div>
           </div>
@@ -182,16 +181,36 @@
                   <div class="card-body">
                     <br />
                     <h5 class="card-title">Locked Chest</h5>
-                    <p class="card-text">I decided to add this
-                      feature to make parkour or secret areas
-                      harder to spot for the player. Thus adding
-                      new things to explore and hidden mini bosses
-                      and loot to find.</p>
+                    <p class="card-text">I devided to add locked chests to the game to give an encentive to get the red
+                      key from within the dungeon. This also gives the player the chance to get more points in the form
+                      of coins. Of course there are also normal chests which dont need a key to be opened by the player.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="col-md-4">
+              <div class="work-box">
+                <a href="assets/img/Dungeon9.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox">
+                  <div class="work-img">
+                    <img src="assets/img/Dungeon9.PNG" alt="" class="img-fluid">
+                  </div>
+                </a>
+                <div class="work-content">
+                  <div class="row">
+                    <div class="col-sm-12 text-center">
+                      <h2 class="w-title">Keys/Inventory</h2>
+                      <p class="s-description text-center">
+                        I made an inventory system for managing the keys and to show them in the ui when the player has
+                        collected them. The green key can be used to open the green door and the red key can be used to
+                        open the red door.
+                      </p>
+                    </div>
 
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="card-content mb-4" style="width: 25rem;">
               <div class="row no-gutters" style="height: 100%;">
                 <div class="col-md-6" style="display: flex;">
@@ -202,34 +221,16 @@
                   <div class="card-body">
                     <br />
                     <h5 class="card-title">Locked Door</h5>
-                    <p class="card-text">As an extra feature i
-                      decided to add a boss battle to my short
-                      arcade game, where the player has to avoid
-                      the huge ice golem at the 2nd level.</p>
+                    <p class="card-text">There are doors that are unlocked and can be opened at any time but the green
+                      door can only be opened by the green key to make them explore the dungeon to find the green key.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
 
 
-            <div class="card-content mb-4" style="width: 25rem;">
-              <div class="row no-gutters" style="height: 100%;">
-                <div class="col-md-6" style="display: flex;">
-                  <img src="assets/img/Dungeon10.PNG" class="card-img" alt="..."
-                    style="object-fit: cover; width: 100%; height: 100%;">
-                </div>
-                <div class="col-md-6" style="display: flex; flex-direction: column; justify-content: center;">
-                  <div class="card-body">
-                    <br />
-                    <h5 class="card-title">Chest</h5>
-                    <p class="card-text">As an extra feature i
-                      decided to add a boss battle to my short
-                      arcade game, where the player has to avoid
-                      the huge ice golem at the 2nd level.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+
 
           </div>
 
@@ -261,11 +262,11 @@
                   <div class="work-content">
                     <div class="row">
                       <div class="col-sm-12 text-center">
-                        <h2 class="w-title">Slime</h2>
+                        <h2 class="w-title">Slime Behavior</h2>
                         <p class="s-description text-center">
-                          The health system is based on hearts, and
-                          you can replenish each heart by collecting healing items in
-                          the level.
+                          The slime is a more common enemy found within the dungeon. Its behavior had been coded to move
+                          towards the player and then do a leaping attack to the direction of the player. But i also
+                          made it where the slime cant see throught colliders with the layer "Wall".
                         </p>
                       </div>
 
@@ -279,9 +280,8 @@
                   <div class="service-content">
                     <h2 class="s-title">Enemies</h2>
                     <p class="s-description text-center">
-                      Ranged and melee enemies use an
-                      easy to dodge attack that only activates when a
-                      certain distance.
+                      Enemies both have different behavior because the slime is a regular common enemy whilst the goblin
+                      is a boss monster at the end of the dungeon.
                     </p>
                   </div>
                 </div>
@@ -298,9 +298,9 @@
                       <div class="col-sm-12 text-center">
                         <h2 class="w-title">Goblin Boss</h2>
                         <p class="s-description text-center">
-                          This was the screen which would pop up
-                          whenever you beat a level or died in the game, it could
-                          probably have been improved upon.
+                          This Goblin is the boss at the end of the game. I made it where the goblin can only attack
+                          when he is inside the trigger called BossRoom to make sure he doesnt leave it. How the
+                          behavior works is it moves towards the player and does a slash attack.
                         </p>
                       </div>
                     </div>
@@ -339,9 +339,10 @@
                       <div class="col-sm-12 text-center">
                         <h2 class="w-title">Hub</h2>
                         <p class="s-description text-center">
-                          The health system is based on hearts, and
-                          you can replenish each heart by collecting healing items in
-                          the level.
+                          The Hub was made for the starting player to have a location to start the multiplayer lobby
+                          where their friends could join and then head to the dungeons together. There was also the
+                          chance of making a shop here with the coins that you collected in the dungeon but we ran out
+                          of time for that.
                         </p>
                       </div>
 
@@ -361,9 +362,9 @@
                       <div class="col-sm-12 text-center">
                         <h2 class="w-title">Center Dungeon</h2>
                         <p class="s-description text-center">
-                          The health system is based on hearts, and
-                          you can replenish each heart by collecting healing items in
-                          the level.
+                          The Center area of the dungeon is where the player spawns and is where most of the content is.
+                          in the dungeon you could find coins, traps, enemies, keys, stair cases heading to different
+                          areas and much more.
                         </p>
                       </div>
 
@@ -383,9 +384,11 @@
                       <div class="col-sm-12 text-center">
                         <h2 class="w-title">Full Dungeon</h2>
                         <p class="s-description text-center">
-                          This was the screen which would pop up
-                          whenever you beat a level or died in the game, it could
-                          probably have been improved upon.
+                          This is the full dungeon that wasnt vissible in the center dungeon card. Here you can see
+                          where each staircase leads to and what can be obtained. The top left staircase leads to the
+                          left section and the left section leads to the bottom right staircase. Whilst the top right
+                          staircase in the center dungeon leads to the boss room in the top right. You need a key to use
+                          this staircase because of the green door.
                         </p>
                       </div>
                     </div>
@@ -397,11 +400,11 @@
         </div>
 
       </section>
-    <!-- End Portfolio Details Section -->
+      <!-- End Portfolio Details Section -->
 
 
-    </br>
-    </br>
+      </br>
+      </br>
     </section>
   </main><!-- End #main -->
 
